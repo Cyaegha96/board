@@ -17,6 +17,8 @@ import java.util.stream.IntStream;
 public class BootWebApplication {
 
     public static void main(String[] args){
+
+        System.setProperty("Spring.devtools.livereload.enabled","true");
         SpringApplication.run(BootWebApplication.class,args);
     }
 

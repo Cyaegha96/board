@@ -1,5 +1,6 @@
 package com.project.Cyaegha96.board.web.domain;
 
+import com.project.Cyaegha96.board.web.enums.SocialType;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -27,6 +28,13 @@ public class User implements Serializable {
 
     @Column
     private  String email;
+
+    @Column
+    private String principal;
+
+    @Column
+    @Enumerated(EnumType.STRING)
+    private SocialType socialType;
 
     @Column
     private LocalDateTime createdDate;
