@@ -26,12 +26,16 @@ public class BootWebApplication implements WebMvcConfigurer {
 
     public static void main(String[] args) {
         SpringApplication.run(BootWebApplication.class, args);
+
     }
 
     @Override
     public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers) {
         argumentResolvers.add(userArgumentResolver);
+
     }
+
+
 
     @Bean
     public CommandLineRunner runner(UserRepository userRepository, BoardRepository boardRepository) {

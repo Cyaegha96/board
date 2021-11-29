@@ -11,6 +11,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/board" />
+            <option value="$PROJECT_DIR$/board/data-rest" />
+            <option value="$PROJECT_DIR$/board/rest-web" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/data-rest" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/data-rest" />
           </set>
         </option>
       </GradleProjectSettings>

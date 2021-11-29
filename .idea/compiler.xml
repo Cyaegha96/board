@@ -5,8 +5,9 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="board.board.main~1" target="11" />
-      <module name="board.board.test~1" target="11" />
+      <module name="board.board.main" target="1.8" />
+      <module name="board.board.test" target="1.8" />
+      <module name="data-rest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
