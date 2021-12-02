@@ -1,7 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="BootWebApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+  <configuration default="false" name="BootWebApplication" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" nameIsGenerated="true">
     <option name="MAIN_CLASS_NAME" value="com.project.Cyaegha96.board.web.BootWebApplication" />
-    <module name="board.board.main" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="com.project.Cyaegha96.board.web.*" />
